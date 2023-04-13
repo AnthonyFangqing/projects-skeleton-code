@@ -17,4 +17,5 @@ class StartingNetwork(torch.nn.Module):
         x = self.flatten(x)
         x = self.fc(x)
         x = self.sigmoid(x)
+        # JIMMY
         return x
