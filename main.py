@@ -31,3 +31,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+print("TEST: Reached end of main without anything crashing")
